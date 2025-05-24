@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mittal Mahendrasinh Gohil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mittal's Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        header, nav, section, footer { margin-bottom: 20px; }
+        nav ul { list-style-type: none; padding: 0; display: flex; gap: 10px; }
+        nav ul li { display: inline; }
+        img { max-width: 100%; height: auto; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+        .gallery img { width: 100px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Mittal</strong>, a passionate <em>Full Stack Developer</em> with experience in <mark>Python, Django, and React</mark>. I'm currently based in <u>Sheffield, UK</u>.</p>
+        <p><small>This page is built using only HTML to demonstrate most available tags.</small></p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Django & React</li>
+        </ol>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <figure>
+            <img src="https://via.placeholder.com/400x200" alt="Project Screenshot">
+            <figcaption>Project 1: Full Stack Web App</figcaption>
+        </figure>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>My Journey into Tech</h3>
+            <time datetime="2025-04-13">April 13, 2025</time>
+            <details>
+                <summary>Read More</summary>
+                <p>I started my coding journey in 2021, and it has been amazing!</p>
+                
+            </details>
+            <details>
+                <summary>Read My Journey</summary>
+                <p>I started my coding journey in 2021, and it has been amazing!</p>
+                
+            </details>
+        </article>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://via.placeholder.com/100" alt="Image 1">
+        <img src="https://via.placeholder.com/100" alt="Image 2">
+        <img src="https://via.placeholder.com/100" alt="Image 3">
+    </section>
+
+    <section id="media">
+        <h2>Media</h2>
+        <video width="320" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <fieldset>
+                <legend>Send a Message</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <label for="topic">Topic:</label><br>
+                <select id="topic" name="topic">
+                    <option value="job">Job</option>
+                    <option value="collab">Collaboration</option>
+                </select><br>
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <table>
+            <caption>My Certificates</caption>
+            <thead>
+                <tr><th>Course</th><th>Platform</th><th>Year</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Python for Beginners</td><td>Coursera</td><td>2023</td></tr>
+                <tr><td>Web Development</td><td>Udemy</td><td>2024</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="3">More coming soon...</td></tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mittal Gohil | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </footer>
+</body>
+</html>

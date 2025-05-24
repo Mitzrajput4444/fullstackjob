@@ -1,0 +1,25 @@
+*{
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-color: aqua;
+    min-height: 70vh;
+    margin:auto ;
+    
+}
+
+.firstcard{
+
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: rgba(red, green, blue, alpha);
+    border-radius: 8px;
+    border-color: white 4px;
+}
